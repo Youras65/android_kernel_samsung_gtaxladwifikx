@@ -37,5 +37,7 @@ subdir-y                     += mod
 subdir-$(CONFIG_SECURITY_SELINUX) += selinux
 subdir-$(CONFIG_DTC)         += dtc
 
+subdir-$(CONFIG_EXYNOS_DTBTOOL) += dtbtool_exynos
+
 # Let clean descend into subdirs
 subdir-	+= basic kconfig package

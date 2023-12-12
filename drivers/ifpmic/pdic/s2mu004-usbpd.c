@@ -48,7 +48,7 @@
 #endif
 #include <linux/regulator/consumer.h>
 
-#if (defined CONFIG_CCIC_NOTIFIER || defined CONFIG_DUAL_ROLE_USB_INTF)
+#if (defined CONFIG_CCIC_NOTIFIER || defined CONFIG_DUAL_ROLE_USB_INTF || defined CONFIG_TYPEC)
 #include <linux/ccic/usbpd_ext.h>
 #endif
 #ifdef CONFIG_BATTERY_SAMSUNG
